@@ -1,14 +1,10 @@
 vbfilter-for-python3
 ====================
-VisualBasic6.0以前用Doxygenフィルターです。  
-python2.0のvbfilter.pyをpython3.0で動くようにし、  
-独自の機能を追加しています。
-Python3.2での動作確認は出来ています。  
+Doxygen filter for VisualBasic 6.0 or earlier.
+It is a python2.0 vbfilter.py that works with python3.0,
+and added some original features. It has been tested on Python 3.2.
 
-####使い方
-INPUT_FILTERに'vbfilter.py'と指定するか'vbfilter.py C 'と指定して下さい  
+#### Usage: Specify 'vbfilter.py' or 'vbfilter.py C ' for INPUT_FILTER.
 
-####注意
-日本語基準になっているので、他の言語の方はコード内の下記部分を  
-自国で使用している文字コードに合わせて変更して下さい  
+#### Note: The code is based on a Japanese code page. You may need to adapt the following part in the code in order to match the character set used in your environment.
 >src_encoding = "cp932"
